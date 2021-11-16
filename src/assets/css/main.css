@@ -1,0 +1,216 @@
+.page-container,.v-main,.v-main__wrap {
+    font-family: 'Be Vietnam', sans-serif;
+    height:calc(100vh - 70px);     
+}
+
+.v-main, .md-theme-default,.v-navigation-drawer__content{
+     
+   overflow: hidden!important; 
+}
+.v-btn::before, .v-chip::before {
+    background-color: transparent!important;
+  }
+  .theme--light.v-text-field--filled:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot:hover {
+    background: transparent!important;
+    cursor:pointer;
+}
+/* .swal2-container, .swal2-modal {
+    background-color: #788195 !important;
+} */
+body {
+    background-color: #f0eff4;
+    height:100%!important;   
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #9b8ec8 !important;
+}
+.otp-input {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 0 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid #006B6A;
+    text-align: center;
+  }
+  .otp-input::-webkit-inner-spin-button,
+  .otp-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+.filterDisplayMobile{
+    margin-left: 45px !important;
+}
+@media only screen and (max-width: 800px) {
+    .v-small-dialog__menu-content {
+        min-height:300px!important;
+    }
+    .filterDisplayMobile{
+        margin-left: 10px !important;
+    }
+    .searchBar{
+        margin-top: 1rem;
+        width:95%!important;
+        margin-bottom: 1rem;
+    }
+    .ag-theme-material .ag-paging-panel > * {
+        margin: 0 !important;
+    }
+    .sideBarHide{
+        /* left: -255 !important; */
+        /* position: absolute !important; */
+        display:none !important;
+    }
+    .contents{
+        margin-left: 17px !important;
+        width: 90% !important;
+    }
+  }
+  .searchBar{
+    width: 56%;
+    height: auto;
+    -webkit-box-align: center !important;
+    padding: 2px 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    border-radius:4px;
+  }
+.ag-theme-material .ag-root-wrapper{
+    width:100%;
+}
+.ag-theme-material .ag-header-row {
+    color: white !important;
+    background-color: #006b6a;
+}
+.ag-theme-material > div:first-of-type {
+    width:94% !important
+}
+
+.ag-header-cell-text {
+    font-weight: 400 !important;
+}
+
+.bg-image{
+    width:100%!important;
+    
+  }
+  .breadCrumb{
+    font-family: 'Be Vietnam', sans-serif;
+      color: #bfbaba;
+  }
+  .breadCrumb:hover{
+color: #788195;
+cursor: pointer;
+  }
+.ag-center-cols-viewport {
+    max-height: 48vh !important;
+}
+  .ag-theme-material .ag-row {
+    color: #788195 !important;
+}
+.tableDeleteIcon{
+    display: none;
+    transition: display 2s;
+    color: #788195 !important;
+}
+
+.ag-row-hover .ag-cell .encloser .tableDeleteIcon{
+    display: inline-flex !important;
+    max-width: 19px !important;
+    max-height: 19px !important;
+    color: #788195 !important;
+}
+
+.alertTemplate{
+    margin: 10px;
+    pointer-events: all;
+    font-family: 'Be Vietnam', sans-serif;
+    letter-spacing: 0.4;
+    font-size: 15px;
+    justify-content: space-between;
+    min-width: 22vw !important;
+    width: auto;
+    height: 5vh;
+    background-color: #f1f3f6;
+    display: flex;
+    border-left: 5px solid;
+    padding-left: 15px;
+    align-items: center;
+    color: #2d3446;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1400px) {
+    html {
+        overflow-y: hidden!important;
+     }
+  }
+
+  .modal {
+    border: 1px solid #d3d3d3;
+    box-shadow: 2px 2px 1px #d3d3d3;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fontt{
+    color:white!important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    padding: 10px;
+    text-align: right;
+}
+
+.footer > button {
+    margin-left: 10px;
+}
+
+.body {
+    padding: 10px;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.btn-slide-line{
+    position: relative;
+    margin: 0;
+    padding: 1px 2px;
+    height: 20px;
+    width: 140px;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #1d89ff;
+    font-weight: 400;
+    font-size: 10px;
+    font-family: inherit;
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    float: left;
+  }
+  
+.ProseMirror {
+    padding: 10px;
+    border: 1px solid black!important;
+}

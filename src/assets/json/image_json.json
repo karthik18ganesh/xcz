@@ -1,0 +1,40 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "templete_name": "template1",
+            "imagename": "Cover Page 2-04 1temp1.jpg"
+        },
+        {
+            "id": 2,
+            "templete_name": "template2",
+            "imagename": "Cover Pages-04template2.png"
+        },
+        {
+            "id": 3,
+            "templete_name": "template3",
+            "imagename": "Cover Pages3-04templete3.png"
+        },
+        {
+            "id": 4,
+            "templete_name": "template4",
+            "imagename": "Cover Pages-01 1template4.png"
+        },
+        {
+            "id": 5,
+            "templete_name": "template5",
+            "imagename": "Cover Page 2-02 1template5.png"
+        },
+        {
+            "id": 6,
+            "templete_name": "template6",
+            "imagename": "Cover Page 2-04 3template6.png"
+        },
+        {
+            "id": 7,
+            "templete_name": "template7",
+            "imagename": "Cover Page 2-06 1template7.png"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    font-family: 'Be Vietnam', sans-serif;
+    overflow: hidden !important;
+}
+
+body{
+    height: 100vh;
+    overflow: auto;
+}
+
+.normalFontSize{
+  font-size: 0.7rem;
+  font-weight: 400 !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(225, 225, 225); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(225, 225, 225); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(163, 163, 163); 
+  }
