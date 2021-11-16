@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default axios.create({
   //baseURL: `http://localhost:8080`,
-  baseURL: `http://73ec-117-247-207-14.ngrok.io`,
+  baseURL: `https://d3b9-117-247-207-14.ngrok.io`,
   //baseURL: https://api.esratrackcovid.com,https://api.nypcovidtracker.com
   headers: {
     Accept: 'application/json',
